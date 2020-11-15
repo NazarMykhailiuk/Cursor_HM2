@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.print("Task1\nWill bee soon");
+        System.out.print("Task1\nFor my mind, arrays in Java are initialize with fixed size and can’t be dynamic, for minimization mistakes.\nFixed objects are much easier to work. \nThey can be only in one condition and they are easily to be shared.");
         System.out.println("\n\nTask2:\n" + "Standart:");
         Integer A[] = new Integer[]{2, 3, 1, 7, 11};
         showArray(A);
