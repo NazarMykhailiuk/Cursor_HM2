@@ -66,7 +66,6 @@ public class Main {
         return sum / (float)array.length;
     }
     public static void replaceDuplicatedValues(Integer[] array) {
-        Set<Integer> duplicates = new HashSet<>();
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (i == j) continue;
