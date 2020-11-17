@@ -1,5 +1,7 @@
 package com.company;
+
 import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,26 +13,27 @@ public class Main {
 
         System.out.println("\n\nTask3:");
         Integer B[] = new Integer[]{10, -25, 30, 20, -50, 40, -10};
-        positiveSumNumbers (B);
-        System.out.println("Sum positive numbers: " + positiveSumNumbers (B));
-        negativeSumNumbers (B);
-        System.out.println("Sum negative numbers: " + negativeSumNumbers (B));
+        positiveSumNumbers(B);
+        System.out.println("Sum positive numbers: " + positiveSumNumbers(B));
+        negativeSumNumbers(B);
+        System.out.println("Sum negative numbers: " + negativeSumNumbers(B));
 
         System.out.println("\nTask4:");
-        Integer [] C = {10, 5, 30, 4, 10};
-        averageNumbers (C);
-        System.out.println("Average value of the list of numbers: " + averageNumbers (C));
+        Integer[] C = {10, 5, 30, 4, 10};
+        averageNumbers(C);
+        System.out.println("Average value of the list of numbers: " + averageNumbers(C));
 
         System.out.println("\nTask5:");
         Integer[] D = new Integer[]{3, 2, 3, 1, 4, 2, 8, 3};
         System.out.println("Original array");
         showArray(D);
         System.out.println("\nArray after duplicates replaced");
-        replaceDuplicatedValues (D);
+        replaceDuplicatedValues(D);
     }
+
     public static void showArray(Integer[] array) {
-        for (int i = 0; i < array.length; i++){
-            System.out.print(array [i] + " ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
     }
 
@@ -63,8 +66,9 @@ public class Main {
         for (int num : array) {
             sum += num;
         }
-        return sum / (float)array.length;
+        return sum / (float) array.length;
     }
+
     public static void replaceDuplicatedValues(Integer[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
